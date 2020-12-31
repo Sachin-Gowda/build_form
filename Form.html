@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form to accept details</title>
+    <style>
+      @media screen and (max-width: 600px) {
+        .column.side,
+        .column.middle {
+          width: 100%;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: Verdana;
+        background-color: #deead0;
+      }
+
+      .header {
+        padding: 10px;
+        text-align: center;
+        color: #46403d;
+      }
+
+      .column {
+        float: left;
+        padding: 10px;
+        color: #b73209;
+      }
+
+      .column.side {
+        width: 48%;
+      }
+
+      .column.middle {
+        width: 1%;
+      }
+
+      .column.side.left {
+        width: 48%;
+        text-align: right;
+      }
+
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h2>Person Details</h2>
+    </div>
+    <div class="row">
+      <div class="column side left">
+        <label>Enter first name</label><br /><br />
+        <label>Enter second name</label><br /><br />
+        <label>Enter gender</label><br /><br />
+        <label>Enter father name</label><br /><br />
+        <label>Enter mother name</label><br /><br />
+        <label>Enter address</label><br /><br /><br /><br /><br />
+        <label>Enter e-mail</label><br /><br />
+        <label>Enter contact number</label><br /><br />
+      </div>
+
+      <div class="column middle">
+        <label>:</label><br /><br />
+        <label>:</label><br /><br />
+        <label>:</label><br /><br />
+        <label>:</label><br /><br />
+        <label>:</label><br /><br />
+        <label>:</label><br /><br /><br /><br /><br />
+        <label>:</label><br /><br />
+        <label>:</label><br /><br />
+      </div>
+
+      <div class="column side">
+        <input type="text" /><br /><br />
+        <input type="text" /><br /><br />
+        <label>Male</label><input type="radio" /><label> Female</label
+        ><input type="radio" /><label> Other</label
+        ><input type="radio" /><br /><br />
+        <input type="text" /><br /><br />
+        <input type="text" /><br /><br />
+        <textarea rows="4" cols="30"></textarea><br /><br />
+        <input type="text" /><br /><br />
+        <input type="text" /><br /><br />
+      </div>
+    </div>
+    <center>
+      <input type="button" value="Submit" style="font-family:Verdana","color:
+      #27716a">
+    </center>
+  </body>
+</html>

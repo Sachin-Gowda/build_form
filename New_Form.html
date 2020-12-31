@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Form to accept details</title>
+    <link rel="stylesheet" href="New_Form.css">
+</head>
+
+<body>
+    <form id="form">
+        <div class="container-1">
+            <h1>Person Details</h1>
+        </div>
+        <div class="container-2">
+            <div class="first">
+                <div>
+                    <label>Enter first name : </lable><input type="text" id="fname">
+                </div>
+                <div>
+                    <h3s id="displayfname">
+                        </h3>
+                </div>
+            </div>
+            <div class="second">
+                <div>
+                    <label>Enter second name : </lable><input type="text" id="sname">
+                </div>
+                <div>
+                    <h3p id="displaysname">
+                        </h3>
+                </div>
+            </div>
+            <div class="third">
+                <div>
+                    <label>Enter gender : </lable><label>Male</label><input type="radio" name="gender"
+                            value="Male"><label> Female</label><input type="radio" name="gender" value="Female"><label>
+                            Other</label><input type="radio" name="gender" value="Other">
+                </div>
+                <div>
+                    <h3p id="displaygender">
+                        </h3>
+                </div>
+            </div>
+            <div class="fourth">
+                <div>
+                    <label>Enter father name : </lable><input type="text" id="fatname">
+                </div>
+                <div>
+                    <h3p id="displayfatname">
+                        </h3>
+                </div>
+            </div>
+            <div class="fifth">
+                <div>
+                    <label>Enter mother name : </lable><input type="text" id="mname">
+                </div>
+                <div>
+                    <h3p id="displaymname">
+                        </h3>
+                </div>
+            </div>
+            <div class="sixth">
+                <div>
+                    <label>Enter address : </lable><textarea rows="4" cols="30" id="add"></textarea>
+                </div>
+                <div>
+                    <h3p id="displayadd">
+                        </h3>
+                </div>
+            </div>
+            <div class="seventh">
+                <div>
+                    <label>Enter e-mail : </lable><input type="text" id="email">
+                </div>
+                <div>
+                    <h3p id="displayemail">
+                        </h3>
+                </div>
+            </div>
+            <div class="eigth">
+                <div>
+                    <label>Enter contact number : </lable><input type="text" id="num">
+                </div>
+                <div>
+                    <h3p id="displaynum">
+                        </h3>
+                </div>
+            </div>
+        </div>
+        <div class="container-3">
+            <input type="button" value="Submit" onclick="myFunction();reset();">
+        </div>
+    </form>
+    <script src="myFunction().js"></script>
+    <script src="reset.js"></script>
+</body>
+
+</html>
